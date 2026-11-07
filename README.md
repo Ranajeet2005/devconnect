@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DevConnect – Developer Collaboration Platform
 
 DevConnect is a backend-focused developer collaboration platform built with Java and Spring Boot. It aims to help development teams manage projects, organize tasks, assign responsibilities, and track project progress through REST APIs.
@@ -170,3 +171,6 @@ Authorization: Bearer YOUR_JWT_TOKEN
 ---
 
 *DevConnect is an educational software engineering project focused on backend development, REST APIs, database management, authentication, and application deployment.*
+=======
+# devconnect
+>>>>>>> 8fc8d35f57853883887f6e3d5d63861e16a29296

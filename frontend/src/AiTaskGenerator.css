@@ -1,0 +1,83 @@
+
+.task-generator {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 950px;
+}
+
+.task-generator-header span {
+  color: #6d5dfc;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.task-generator-header h2 {
+  margin: 12px 0;
+  font-size: 28px;
+  color: #172033;
+}
+
+.task-generator-header p {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.task-generator label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.task-generator textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 15px;
+  border: 1px solid #dbe1ea;
+  border-radius: 10px;
+  font: inherit;
+  resize: vertical;
+}
+
+.task-generator small {
+  display: block;
+  color: #64748b;
+  margin-top: 8px;
+}
+
+.task-generator button {
+  margin-top: 20px;
+  padding: 13px 22px;
+  border: none;
+  border-radius: 9px;
+  background: #6555e7;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.task-generator button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.task-error {
+  color: #dc2626;
+  margin-top: 15px;
+}
+
+.generated-tasks {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fc;
+  border-radius: 12px;
+}
+
+.generated-tasks pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: inherit;
+  line-height: 1.7;
+}

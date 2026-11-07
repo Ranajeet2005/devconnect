@@ -66,3 +66,18 @@ build/
 # Coverage
 .jacoco/
 *.exec
+
+# Local secrets and configuration
+**/application.properties
+**/application-local.properties
+**/application-secret.properties
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build and temporary files
+**/target/
+**/node_modules/
+**/dist/
+startup-log.txt
+where

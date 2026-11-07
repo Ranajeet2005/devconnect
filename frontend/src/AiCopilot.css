@@ -1,0 +1,144 @@
+.ai-copilot-page {
+    padding: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.ai-copilot-header {
+    margin-bottom: 28px;
+}
+
+.ai-label {
+    color: #6957e8;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.ai-copilot-header h1 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #172033;
+}
+
+.ai-copilot-header p {
+    color: #718096;
+}
+
+.ai-copilot-card,
+.ai-result-card {
+    background: white;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #e7eaf0;
+    margin-bottom: 24px;
+}
+
+.ai-copilot-card label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.ai-copilot-card textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #dce1eb;
+    border-radius: 10px;
+    resize: vertical;
+    font: inherit;
+    outline: none;
+}
+
+.ai-copilot-card textarea:focus {
+    border-color: #6957e8;
+}
+
+.ai-input-footer,
+.ai-result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-top: 16px;
+}
+
+.ai-input-footer span {
+    color: #8992a3;
+    font-size: 13px;
+}
+
+.ai-input-footer button,
+.ai-result-header button {
+    background: #6957e8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ai-input-footer button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ai-loading {
+    text-align: center;
+    padding: 25px;
+    color: #6957e8;
+}
+
+.ai-spinner {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #e5e1ff;
+    border-top-color: #6957e8;
+    border-radius: 50%;
+    animation: ai-spin 0.8s linear infinite;
+    margin: auto;
+}
+
+@keyframes ai-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ai-error {
+    background: #fff0f0;
+    color: #c53030;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.ai-result-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.ai-result-header h2 {
+    font-size: 20px;
+}
+
+.ai-plan-content {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-family: inherit;
+    line-height: 1.8;
+    color: #39445a;
+}
+
+@media (max-width: 600px) {
+    .ai-copilot-page {
+        padding: 18px;
+    }
+
+    .ai-input-footer,
+    .ai-result-header {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}
